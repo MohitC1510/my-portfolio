@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    // background-image: url('/images/bgg.jpg');
+    // background-size: cover;
+    // background-position: center;
+    font-size: $m-size;
+    font-family: 'Abel', sans-serif;
+    line-height: 1.6;
+    }
+button{
+    cursor: pointer;
+}
+button:disabled{
+    cursor: default;
+}
+.active{
+    font-weight: bolder;
+    color: red;
+}
